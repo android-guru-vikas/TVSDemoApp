@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/selectableItemBackground"
+    tools:context=".activity.ItemDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/card_bg"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+        <com.dev.cardekho.design.CarDekhoTextView
+            android:id="@+id/userNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:maxLines="1"
+            android:text="Ramesh Jain"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <com.dev.cardekho.design.CarDekhoTextView
+            android:id="@+id/positionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:maxLines="1"
+            android:text="Ramesh Jain"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.dev.cardekho.design.CarDekhoTextView
+                android:id="@+id/cityTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:text="asdasd"
+                android:textSize="16sp" />
+
+
+            <com.dev.cardekho.design.CarDekhoTextView
+                android:id="@+id/zipCodeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:text="asdasd"
+                android:textSize="@dimen/sixteen_sp" />
+        </LinearLayout>
+
+
+        <com.dev.cardekho.design.CarDekhoTextView
+            android:id="@+id/salaryTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="Ramesh Jain"
+            android:textSize="@dimen/sixteen_sp" />
+
+
+        <com.dev.cardekho.design.CarDekhoTextView
+            android:id="@+id/dateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="asdasd"
+            android:textSize="@dimen/ten_sp" />
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/captureImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/ten_dp"
+        android:baselineAlignBottom="true"
+        android:src="@drawable/ic_linked_camera_black_24dp"
+        app:backgroundTint="@color/colorPrimary"
+        app:borderWidth="2dp"
+        app:elevation="6dp"
+        app:fabSize="normal" />
+</android.support.design.widget.CoordinatorLayout>

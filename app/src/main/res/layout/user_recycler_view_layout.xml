@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="10dp"
+            android:layout_margin="@dimen/ten_dp"
+            android:src="@drawable/ic_new_male" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ten_dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/iconImageView"
+            android:layout_toRightOf="@+id/iconImageView"
+            android:orientation="vertical"
+            android:paddingRight="5dp">
+
+            <com.dev.cardekho.design.CarDekhoTextView
+                android:id="@+id/userNameTextView"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:maxLines="1"
+                android:text="Ramesh Jain"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/eighteen_sp"
+                android:textStyle="bold" />
+
+            <com.dev.cardekho.design.CarDekhoTextView
+                android:id="@+id/positionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:text="asdasd"
+                android:textSize="@dimen/ten_sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/sixty_dp"
+        android:layout_marginEnd="@dimen/six_dp"
+        android:background="@android:color/darker_gray" />
+</RelativeLayout>

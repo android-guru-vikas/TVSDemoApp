@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">CarDekho</string>
+    <string name="action_settings">Settings</string>
+    <string name="ask_for_permission">Please allow permission!</string>
+    <string name="read_sms_permission_denied">Read SMS permission denied!</string>
+    <string name="default_notification_channel_id">vokal</string>
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="permission_never_ask_again">Sms permission needed to use this app.</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email
+        completions.</string>
+    <string name="UNKNOWN_HOST">Unable to connect to the server. Please check your internet connection and try again.</string>
+    <string name="SOCKET_TIME_OUT">Connection time out. Please try again.</string>
+    <string name="JSON_SYNTAX">Parsing syntax error.</string>
+    <string name="UNABLE_TO_CONNECT">Unable to connect to the server. Please try again or later.</string>
+    <string name="UNKNOWN_ERROR">Something went wrong.</string>
+
+    <!-- -API Error Messages -->
+    <string name="bad_Request">Bad Request</string>
+    <string name="unauthorized_user">Unauthorized user.</string>
+    <string name="page_not_found">Page not found.</string>
+    <string name="something_went_wrong_on_server">Something went wrong on server.</string>
+    <string name="something_went_wrong">Something went wrong.</string>
+    <string name="data_not_found">Data not found.</string>
+
+    <string name="title_activity_image_view">ImageViewActivity</string>
+    <string name="position">Position : </string>
+    <string name="address">Address : </string>
+    <string name="work_since">Working Since </string>
+    <string name="assets">Assets : </string>
+    <string name="user_details">User Details</string>
+    <string name="graph_view">Graph View</string>
+    <string name="map_view">Map View</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bar_chart">Bar Chart</string>
+    <string name="salary_view">Salary Chart(First 10 Emp)</string>
+
+</resources>
